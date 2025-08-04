@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 ## 👀 Personal Projects & Contributions (Public, Private or In Progress)
 
-- 🔒 **Arctic-Tern-Predators-Model**  
+- 🔒 **Arctic-Tern-Predators-Model**  ![Status](https://img.shields.io/badge/status-private-inactive?color=gray)
   Contribution to a collaborative project investigating predation risk of barnacle goose eggs based on nest location and parental defense behavior.  
   **Key methods:**  
   - Survival analysis with **Cox Proportional Hazards Models** (time-dependent covariates)  
@@ -38,4 +38,4 @@ Here are some ideas to get you started:
 
 ➡️ More will be made public in the near future <!-- — feel free to [get in touch](mailto:your.email@example.com) for details.
 -->
-![Status](https://img.shields.io/badge/status-private-inactive?color=gray)
+
