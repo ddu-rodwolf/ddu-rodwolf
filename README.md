@@ -27,7 +27,7 @@ Here are some ideas to get you started:
   - R packages used: `survival`, `survminer`, `optim`  
   **Focus:** Understanding how predator pressure varies with goose behavior and tern colony proximity.
 
-- 📦 **Global-Riverine-N2O-Emissions-Processor**  
+- 📤 **Global-Riverine-N2O-Emissions-Processor**  
   Data processing pipeline in R to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).  
   **Key components:**  
   - Summarized annual raster stacks using two aggregation methods  
