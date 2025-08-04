@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 -->
 
 
-## 👀 Personal Projects & Contributions (Public, Private or In Progress)
+## Personal Projects & Contributions (Public, Private or In Progress)
 
 - 🛰️ [**SIOS-InfraNOR-Ocean-Color**](https://github.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color)  
   - Visualizes Arctic ocean color data (1 km resolution) to estimate **phytoplankton biomass** from **Chlorophyll-a (CHL-a)** observations around Svalbard.  
