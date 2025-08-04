@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 
 
 
-## 👀 Personal Projects & Contributions (Private or In Progress)
+## 👀 Personal Projects & Contributions (Public, Private or In Progress)
 
 - 🔒 **Arctic-Tern-Predators-Model**  
   Contributed to a collaborative project investigating predation risk of barnacle goose eggs based on nest location and parental defense behavior.  
@@ -27,6 +27,14 @@ Here are some ideas to get you started:
   - R packages used: `survival`, `survminer`, `optim`  
   **Focus:** Understanding how predator pressure varies with goose behavior and tern colony proximity.
 
+- 📦 **Global-Riverine-N2O-Emissions-Processor**  
+  Developed a data processing pipeline in R to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).  
+  **Key components:**  
+  - Summarized annual raster stacks using two aggregation methods  
+  - Geospatial filtering and masking using shapefiles (`sf`, `raster`, `rgdal`)  
+  - Automated processing and visualization of GeoTIFF layers by stream order and emission category  
+  - Output comparison of cumulative estimates as maps and GeoTIFFs  
+  **Goal:** Gain hands-on experience with large raster datasets and automate N₂O emission analysis across decades.
 
 ➡️ More will be made public in the near future <!-- — feel free to [get in touch](mailto:your.email@example.com) for details.
 -->
