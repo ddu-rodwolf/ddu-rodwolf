@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 ## 👀 Personal Projects & Contributions (Public, Private or In Progress)
 
 - 🔒 **Arctic-Tern-Predators-Model**  
-  Contributed to a collaborative project investigating predation risk of barnacle goose eggs based on nest location and parental defense behavior.  
+  Contribution to a collaborative project investigating predation risk of barnacle goose eggs based on nest location and parental defense behavior.  
   **Key methods:**  
   - Survival analysis with **Cox Proportional Hazards Models** (time-dependent covariates)  
   - Predator visitation modeled using **Zero-inflated Binomial GLMs**  
@@ -28,7 +28,7 @@ Here are some ideas to get you started:
   **Focus:** Understanding how predator pressure varies with goose behavior and tern colony proximity.
 
 - 📦 **Global-Riverine-N2O-Emissions-Processor**  
-  Developed a data processing pipeline in R to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).  
+  Data processing pipeline in R to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).  
   **Key components:**  
   - Summarized annual raster stacks using two aggregation methods  
   - Geospatial filtering and masking using shapefiles (`sf`, `raster`, `rgdal`)  
