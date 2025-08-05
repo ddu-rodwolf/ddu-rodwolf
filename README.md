@@ -21,6 +21,19 @@ Here are some ideas to get you started:
   - Visualizes Arctic ocean color data (1 km resolution) to estimate **phytoplankton biomass** from **Chlorophyll-a (CHL-a)** observations around Svalbard.  
   - Demonstrates how to use remote sensing datasets in **netCDF** format under Python for environmental analysis — including spatial plotting and biomass proxy calculations.
 
+- 🔧 **Python Object Explorer**  
+  A CLI-based utility for recursive structural analysis of Python objects  
+  This project provides a structured, richly formatted exploration of Python objects, suitable for researchers and developers working with unfamiliar libraries or dynamically generated code.  
+  **Key features:**  
+  - 🔍 Deep introspection of objects, classes, modules, and inheritance chains  
+  - 🧩 Recursively traverses attributes and `__mro__`  
+  - 🌈 Colored, indented, and grouped output via [rich](https://github.com/Textualize/rich)  
+  - 📚 Markdown export and optional file output for documentation or sharing  
+  - 🧪 Usable within notebooks or as a shell utility  
+  Originally developed as a personal research tool to complement RE workflows and ontology inspection tasks.  
+  **Project status:** 🧪 Internal project, preparing for publication  
+  **Tech stack:** 🔬 Python, `rich`, reflection tools, RE-friendly CLI
+    
 - 📤 [**Global-Riverine-N2O-Emissions-Processor**](https://github.com/ddu-rodwolf/Global-Riverine-N2O-Emissions)  
   Data processing pipeline in R to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).  
   **Key components:**  
@@ -38,7 +51,6 @@ Here are some ideas to get you started:
   - Model fitting via **Maximum Likelihood Estimation**; selection using **AIC**  
   - R packages used: `survival`, `survminer`, `optim`  
   **Focus:** Understanding how predator pressure varies with goose behavior and tern colony proximity.
-
 
 ➡️ More will be made public in the near future <!-- — feel free to [get in touch](mailto:your.email@example.com) for details.
 -->
