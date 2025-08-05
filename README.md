@@ -21,7 +21,7 @@ Here are some ideas to get you started:
   - Visualizes Arctic ocean color data (1 km resolution) to estimate **phytoplankton biomass** from **Chlorophyll-a (CHL-a)** observations around Svalbard.  
   - Demonstrates how to use remote sensing datasets in **netCDF** format under Python for environmental analysis — including spatial plotting and biomass proxy calculations.
 
-- 🔧 **Python Object Explorer**  
+- 🔧 [**Python Object Explorer**](https://github.com/ddu-rodwolf/Python-Object-Explorer)  
   A CLI-based utility for recursive structural analysis of Python objects  
   This project provides a structured, richly formatted exploration of Python objects, suitable for researchers and developers working with unfamiliar libraries or dynamically generated code.  
   **Key features:**  
