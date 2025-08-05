@@ -43,7 +43,7 @@ Here are some ideas to get you started:
   - Output comparison of cumulative estimates as maps and GeoTIFFs  
   **Goal:** Gain hands-on experience with large raster datasets and automate N₂O emission analysis across decades.
     
-- 🔒 **Arctic-Tern-Predators-Model** ![Status](https://img.shields.io/badge/status-private-inactive?color=gray)  
+- 🪿 **Arctic-Tern-Predators-Model** ![Status](https://img.shields.io/badge/status-private-inactive?color=gray)  
   Contribution to a collaborative project investigating predation risk of barnacle goose eggs based on nest location and parental defense behavior.  
   **Key methods:**  
   - Survival analysis with **Cox Proportional Hazards Models** (time-dependent covariates)  
