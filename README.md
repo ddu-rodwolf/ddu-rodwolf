@@ -19,13 +19,14 @@ Here are some ideas to get you started:
 
 ---
 
-### 🛰️ [**SIOS-InfraNOR-Ocean-Color**](https://github.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color)  
+### 🛰️ [**SIOS-InfraNOR-Ocean-Color**](https://github.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color) ![Python](https://img.shields.io/badge/language-Python-blue)
+
   - Visualizes Arctic ocean color data (1 km resolution) to estimate **phytoplankton biomass** from **Chlorophyll-a (CHL-a)** observations around Svalbard.
   - Demonstrates how to use remote sensing datasets in **netCDF** format under Python for environmental analysis — including spatial plotting and biomass proxy calculations.
 
 ---
 
-### 🔧 [**Python Object Explorer**](https://github.com/ddu-rodwolf/Python-Object-Explorer)  
+### 🔧 [**Python Object Explorer**](https://github.com/ddu-rodwolf/Python-Object-Explorer) ![Python](https://img.shields.io/badge/language-Python-blue)
 A CLI-based utility for recursive structural analysis of Python objects.  
 <details>
 <summary>Click to expand project summary</summary>
@@ -49,7 +50,7 @@ Originally developed as a personal research tool to complement RE workflows and 
 
 ---
 
-### 📤 [**Global-Riverine-N₂O-Emissions Processor**](https://github.com/ddu-rodwolf/Global-Riverine-N2O-Emissions)  
+### 📤 [**Global-Riverine-N₂O-Emissions Processor**](https://github.com/ddu-rodwolf/Global-Riverine-N2O-Emissions)  ![R](https://img.shields.io/badge/language-R-blue)
 Data processing pipeline in **R** to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).
 
 **Key components:**  
@@ -62,8 +63,8 @@ Data processing pipeline in **R** to handle geospatial raster datasets from the 
 
 ---
 
-### 🐦 Arctic-Tern-Predators-Model  
-![Status](https://img.shields.io/badge/status-private-inactive?color=gray)  
+### 🐦 Arctic-Tern-Predators-Model ![R](https://img.shields.io/badge/language-R-blue)
+![Status](https://img.shields.io/badge/status-private-yellow)  
 Contribution to a project led by **Kr. Kr.**, investigating predation risk to **Arctic tern nests** in relation to spatial nest placement, predator visitation, and interspecies interactions (e.g., with barnacle geese).
 <details>
 <summary>Click to expand project summary</summary>
