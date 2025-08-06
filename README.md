@@ -19,10 +19,26 @@ Here are some ideas to get you started:
 
 ---
 
-### 🛰️ [**SIOS-InfraNOR-Ocean-Color**](https://github.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color) ![Python](https://img.shields.io/badge/language-Python-blue)
+### 🛰️ [**SIOS-InfraNOR-Ocean-Color**](https://github.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color) ![Python](https://img.shields.io/badge/language-Python-blue)  
+Hands-on demonstration for quick exploration and visualization of **NetCDF-based ocean color data** from the SIOS-InfraNor remote sensing component.
 
-  - Visualizes Arctic ocean color data (1 km resolution) to estimate **phytoplankton biomass** from **Chlorophyll-a (CHL-a)** observations around Svalbard.
-  - Demonstrates how to use remote sensing datasets in **netCDF** format under Python for environmental analysis — including spatial plotting and biomass proxy calculations.
+<details>
+<summary>Click to expand project summary</summary>
+&nbsp;
+
+🧭 This project showcases how to explore and analyze remote sensing data stored in **NetCDF4** format using Python, with a focus on **phytoplankton biomass estimation** via **Chlorophyll-a (CHL-a)** concentrations.  
+📡 The dataset used is the **first remote sensing product released** by [NERSC](https://nersc.no/) under the **SIOS-InfraNor** initiative — a distributed research infrastructure for long-term environmental monitoring in Svalbard.  
+📈 The script includes spatial plotting and a basic biomass estimation using a user-defined mixed layer depth (MLD), meant for exploratory and illustrative purposes.
+
+**Key components:**  
+- Loading remote sensing CHL-a data via NetCDF4  
+- Plotting spatial distribution with masked invalid data  
+- Estimating biomass using CHL-a × MLD × grid cell area  
+- Minimal setup, reusable for similar Arctic datasets  
+
+**Focus:** Fast prototyping, accessibility of Arctic Earth Observation data, and educational outreach.
+
+</details>
 
 ---
 
