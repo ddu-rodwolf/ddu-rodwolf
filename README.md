@@ -79,13 +79,13 @@ Data processing pipeline in **R** to handle geospatial raster datasets from the 
 
 ---
 
-### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore) ![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue)
-A terminal-based toolkit for safely previewing, inspecting and restoring Firefox browser sessions.  
+### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore) ![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue) ![JQ](https://img.shields.io/badge/tool-jq-yellow)
+Interactive terminal toolkit to preview, backup, and restore Firefox browser sessions.  
 <details>
 <summary>Click to expand project summary</summary>
 &nbsp;
 
-This project provides a color-coded, structured preview of saved Firefox sessions so you can inspect windows, tab groups and URLs before restoring them. It is aimed at power users who want fine-grained control over session recovery and backup workflows.
+Fills a gap in Firefox and other browsers by letting you **safely inspect and recover sessions** — even when the built-in “Restore Session” fails or you’ve accidentally started a new one. Also handy for digging into past browsing history months later.
 
 **Key features:**  
 - 📂 **Session selection** by profile and date (supports `_pre-restore` snapshots)  
@@ -96,8 +96,13 @@ This project provides a color-coded, structured preview of saved Firefox session
 - 📄 **Markdown export** option for saved previews (good for documentation or audit trails)  
 - 🛠 Modular scripts: `preview_firefox_session.sh`, `restore_firefox_session.sh`, and supportive helpers
 
-**Implementation detail — decoder:**  
-The included Python utility decodes Firefox LZ4-compressed session files to plain JSON so `jq` can parse them. It handles the Firefox `mozLz40\0` header, decompresses with `lz4.block`, and prints UTF‑8 JSON to stdout. It also installs a SIGPIPE handler so piping into other tools is safe.
+**Use cases:**  
+- Recover from “wrong button” mistakes  
+- Mine past sessions for research or lost references  
+- Manage multiple profiles with many tab groups  
+- (Planned) Extend to Microsoft Edge
+
+**Tech stack:** Bash, `jq`, Python (`lz4`)
 
 </details>
 
