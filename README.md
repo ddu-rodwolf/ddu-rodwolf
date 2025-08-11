@@ -79,6 +79,30 @@ Data processing pipeline in **R** to handle geospatial raster datasets from the 
 
 ---
 
+### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore) ![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue)
+A terminal-based toolkit for safely previewing, inspecting and restoring Firefox browser sessions.  
+<details>
+<summary>Click to expand project summary</summary>
+&nbsp;
+
+This project provides a color-coded, structured preview of saved Firefox sessions so you can inspect windows, tab groups and URLs before restoring them. It is aimed at power users who want fine-grained control over session recovery and backup workflows.
+
+**Key features:**  
+- 📂 **Session selection** by profile and date (supports `_pre-restore` snapshots)  
+- 🖥 **Interactive preview** of windows, groups and tabs with 256-color ANSI highlighting and configurable palettes  
+- 🧩 `jq`-powered structured parsing via `jq_preview_with_groups.jq` for robust extraction of windows/groups/tabs  
+- 🐍 **Python decoder** `decode_jsonlz4.py` to safely decompress Firefox `*.jsonlz4` session files (uses `lz4.block`)  
+- 💾 **Safe restore flow** — backs up the current session before restoring and offers confirm prompts  
+- 📄 **Markdown export** option for saved previews (good for documentation or audit trails)  
+- 🛠 Modular scripts: `preview_firefox_session.sh`, `restore_firefox_session.sh`, and supportive helpers
+
+**Implementation detail — decoder:**  
+The included Python utility decodes Firefox LZ4-compressed session files to plain JSON so `jq` can parse them. It handles the Firefox `mozLz40\0` header, decompresses with `lz4.block`, and prints UTF‑8 JSON to stdout. It also installs a SIGPIPE handler so piping into other tools is safe.
+
+</details>
+
+---
+
 ### 🐦 Arctic-Tern-Predators-Model ![R](https://img.shields.io/badge/language-R-blue)
 ![Status](https://img.shields.io/badge/status-private-yellow)  
 Contribution to a project led by **Kr. Kr.**, investigating predation risk to **Arctic tern nests** in relation to spatial nest placement, predator visitation, and interspecies interactions (e.g., with barnacle geese).
