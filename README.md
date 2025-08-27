@@ -30,7 +30,7 @@ Hands-on demonstration for quick exploration and visualization of **NetCDF-based
 📡 The dataset used is the **first remote sensing product released** by [NERSC](https://nersc.no/) under the **SIOS-InfraNor** initiative — a distributed research infrastructure for long-term environmental monitoring in Svalbard.  
 📈 The script includes spatial plotting and a basic biomass estimation using a user-defined mixed layer depth (MLD), meant for exploratory and illustrative purposes.
 
-**Key components:**  
+**✨ Key components:**  
 - Loading remote sensing CHL-a data via NetCDF4  
 - Plotting spatial distribution with masked invalid data  
 - Estimating biomass using CHL-a × MLD × grid cell area  
@@ -50,7 +50,7 @@ A CLI-based utility for recursive structural analysis of Python objects.
 
 This project provides a structured, richly formatted exploration of Python objects, suitable for researchers and developers working with unfamiliar libraries or dynamically generated code.
 
-**Key features:**  
+**✨ Key features:**  
 - 🔍 Deep introspection of objects, classes, modules, and inheritance chains  
 - 🧩 Recursively traverses attributes and `__mro__`  
 - 🌈 Colored, indented, and grouped output via [rich](https://github.com/Textualize/rich)  
@@ -71,7 +71,7 @@ Originally developed as a personal research tool to complement RE workflows and 
 ### 📤 [**Global-Riverine-N₂O-Emissions Processor**](https://github.com/ddu-rodwolf/Global-Riverine-N2O-Emissions)  ![R](https://img.shields.io/badge/language-R-blue)
 Data processing pipeline in **R** to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).
 
-**Key components:**  
+**✨ Key components:**  
 - Summarized annual raster stacks using two aggregation methods  
 - Geospatial filtering and masking using shapefiles (`sf`, `raster`, `rgdal`)  
 - Automated processing and visualization of GeoTIFF layers by stream order and emission category  
@@ -89,7 +89,7 @@ Interactive terminal toolkit to preview, backup, and restore Firefox browser ses
 
 Fills a gap in Firefox and other browsers by letting you **safely inspect and recover sessions** — even when the built-in “Restore Session” fails or you’ve accidentally started a new one. Also handy for digging into past browsing history months later.
 
-**Key features:**  
+**✨ Key features:**  
 - 📂 **Session selection** by profile and date (supports `_pre-restore` snapshots)  
 - 🖥 **Interactive preview** of windows, groups and tabs with 256-color ANSI highlighting and configurable palettes  
 - 🧩 `jq`-powered structured parsing via `jq_preview_with_groups.jq` for robust extraction of windows/groups/tabs  
@@ -120,7 +120,7 @@ Contribution to a project led by **Kr. Kr.**, investigating predation risk to **
 🧠 The analytical approach and model architecture were conceived and developed by **Kr. Kr.**  
 🧩 Contribution was provided through a utility that trialed parameter combinations — combining loops and convergence controls — to identify stable model configurations and resolve convergence issues.
 
-**Key methods:**  
+**✨ Key methods:**  
 - Survival analysis using **Cox Proportional Hazards Models** with time-dependent covariates  
 - Predator visitation modeled with **Zero-inflated Binomial GLMs**  
 - Model fitting via **Maximum Likelihood Estimation**, selection using **AIC**  
