@@ -27,7 +27,9 @@ Hands-on demonstration for quick exploration and visualization of **NetCDF-based
 &nbsp;
 
 🧭 This project showcases how to explore and analyze remote sensing data stored in **NetCDF4** format using Python, with a focus on **phytoplankton biomass estimation** via **Chlorophyll-a (CHL-a)** concentrations.  
+
 📡 The dataset used is the **first remote sensing product released** by [NERSC](https://nersc.no/) under the **SIOS-InfraNor** initiative — a distributed research infrastructure for long-term environmental monitoring in Svalbard.  
+
 📈 The script includes spatial plotting and a basic biomass estimation using a user-defined mixed layer depth (MLD), meant for exploratory and illustrative purposes.
 
 **✨ Key components:**  
@@ -61,8 +63,13 @@ This project provides a structured, richly formatted exploration of Python objec
 
 Originally developed as a personal research tool to complement RE workflows and ontology inspection tasks.
 
-**Project status:** 🧪 Internal project, preparing for publication  
-**Tech stack:** 🔬 Python, `rich`, reflection tools, RE-friendly CLI
+**📌 Project Status:** 🧪 Internal project – actively evolving toward public release.
+Planned next steps:
+  - JSON/YAML-based color palettes
+  - More robust error handling
+  - Cleaner CLI wrapper
+
+**🧑‍💻 Tech stack:** Python, `rich`, Reflection & inspection (`inspect`, `__mro__`, etc.), IPython magics
 
 </details>
 
@@ -104,7 +111,7 @@ Fills a gap in Firefox and other browsers by letting you **safely inspect and re
 - Manage multiple profiles with many tab groups  
 - (Planned) Extend to Microsoft Edge
 
-**Tech stack:** Bash, `jq`, Python (`lz4`)
+**🧑‍💻 Tech stack:** Bash, `jq`, Python (`lz4`)
 
 </details>
 
