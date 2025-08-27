@@ -55,7 +55,9 @@ This project provides a structured, richly formatted exploration of Python objec
 - 🧩 Recursively traverses attributes and `__mro__`  
 - 🌈 Colored, indented, and grouped output via [rich](https://github.com/Textualize/rich)  
 - 📚 Markdown export and optional file output for documentation or sharing  
-- 🧪 Usable within notebooks or as a shell utility  
+- 🧪 Usable within:
+  - Jupyter/IPython (%explore_more)
+  - A CLI script (python test_my_functions.py ...) 
 
 Originally developed as a personal research tool to complement RE workflows and ontology inspection tasks.
 
