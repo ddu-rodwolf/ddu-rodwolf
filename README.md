@@ -64,10 +64,28 @@ This project provides a structured, richly formatted exploration of Python objec
 Originally developed as a personal research tool to complement RE workflows and ontology inspection tasks.
 
 **📌 Project Status:** 🧪 Internal project – actively evolving toward public release.
-Planned next steps:
-  - JSON/YAML-based color palettes
-  - More robust error handling
-  - Cleaner CLI wrapper
+<table>
+<tr>
+<td width="60%" valign="top">
+
+✅ Planned next steps:
+- JSON/YAML-based color palettes  
+- More robust error handling  
+- Cleaner CLI wrapper  
+
+</td>
+<td width="40%" valign="top">
+
+🖥️ Output Example:  
+<p align="center">
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/Python-Object-Explorer/main/Figures/Explore_python_object.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/Python-Object-Explorer/main/Figures/Explore_python_object.png" width="300"/>
+</a>
+</p>
+
+</td>
+</tr>
+</table>
 
 **🧑‍💻 Tech stack:** Python, `rich`, Reflection & inspection (`inspect`, `__mro__`, etc.), IPython magics
 
