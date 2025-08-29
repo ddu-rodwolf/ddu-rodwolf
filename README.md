@@ -32,11 +32,29 @@ Hands-on demonstration for quick exploration and visualization of **NetCDF-based
 
 📈 The script includes spatial plotting and a basic biomass estimation using a user-defined mixed layer depth (MLD), meant for exploratory and illustrative purposes.
 
-**✨ Key components:**  
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<b>✨ Key components:</b>  
 - Loading remote sensing CHL-a data via NetCDF4  
 - Plotting spatial distribution with masked invalid data  
 - Estimating biomass using CHL-a × MLD × grid cell area  
-- Minimal setup, reusable for similar Arctic datasets  
+- Minimal setup, reusable for similar Arctic datasets
+
+</td>
+<td width="50%" valign="top">
+
+<b>🖥️ Sea water Chl-a concentration around Svalbard:</b>  
+<p align="center">
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color/main/Figures/Chl-a_concentration_Svalbard_01.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color/main/Figures/Chl-a_concentration_Svalbard_01.png" width="300"/>
+</a>
+</p>
+
+</td>
+</tr>
+</table>
 
 **Focus:** Fast prototyping, accessibility of Arctic Earth Observation data, and educational outreach.
 
