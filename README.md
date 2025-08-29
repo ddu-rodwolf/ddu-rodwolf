@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 Hands-on demonstration for quick exploration and visualization of **NetCDF-based ocean color data** from the SIOS-InfraNor remote sensing component.
 
 <details>
-<summary><i>Click to expand project summary</i></summary
+<summary>🎯 <i><b>Click to expand project summary</b></i></summary>
 &nbsp;
 
 🧭 This project showcases how to explore and analyze remote sensing data stored in **NetCDF4** format using Python, with a focus on **phytoplankton biomass estimation** via **Chlorophyll-a (CHL-a)** concentrations.  
@@ -37,10 +37,14 @@ Hands-on demonstration for quick exploration and visualization of **NetCDF-based
 <td width="50%" valign="top">
 
 <b>✨ Key components:</b>  
-- Loading remote sensing CHL-a data via NetCDF4  
-- Plotting spatial distribution with masked invalid data  
-- Estimating biomass using CHL-a × MLD × grid cell area  
-- Minimal setup, reusable for similar Arctic datasets
+- Loading remote sensing CHL-a data  
+  via NetCDF4  
+- Plotting spatial distribution  
+  with masked invalid data  
+- Estimating biomass using  
+  CHL-a × MLD × grid cell area  
+- Minimal setup, reusable for similar  
+  Arctic datasets
 
 </td>
 <td width="50%" valign="top">
@@ -65,7 +69,7 @@ Hands-on demonstration for quick exploration and visualization of **NetCDF-based
 ### 🔧 [**Python Object Explorer**](https://github.com/ddu-rodwolf/Python-Object-Explorer) ![Python](https://img.shields.io/badge/language-Python-blue)
 A CLI-based utility for recursive structural analysis of Python objects.  
 <details>
-<summary><i>Click to expand project summary</i></summary
+<summary>🎯 <i><b>Click to expand project summary</b></i></summary>
 &nbsp;
 
 This project provides a structured, richly formatted exploration of Python objects, suitable for researchers and developers working with unfamiliar libraries or dynamically generated code.
@@ -114,20 +118,64 @@ Originally developed as a personal research tool to complement RE workflows and 
 ### 📤 [**Global-Riverine-N₂O-Emissions Processor**](https://github.com/ddu-rodwolf/Global-Riverine-N2O-Emissions)  ![R](https://img.shields.io/badge/language-R-blue)
 Data processing pipeline in **R** to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).
 
+<details>
+<summary>🎯 <i><b>Click to expand project summary</b></i></summary>
+&nbsp;
+
 **✨ Key components:**  
 - Summarized annual raster stacks using two aggregation methods  
 - Geospatial filtering and masking using shapefiles (`sf`, `raster`, `rgdal`)  
 - Automated processing and visualization of GeoTIFF layers by stream order and emission category  
-- Output comparison of cumulative estimates as maps and GeoTIFFs  
+- Output comparison of cumulative estimates as maps and GeoTIFFs
+
+**📊 Methodology & Results Charts **
+<table>
+<tr>
+<td width="25%" valign="top"> 
+<p align="center">
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-02.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-02.png" width="300"/>
+</a>
+</p>
+
+</td>
+<td width="25%" valign="top"> 
+<p align="center">
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-03.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-03.png" width="300"/>
+</a>
+</p>
+  
+</td>
+<td width="25%" valign="top"> 
+<p align="center">
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-09.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-09.png" width="300"/>
+</a>
+</p>
+
+</td>
+<td width="25%" valign="top"> 
+<p align="center">
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-14.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/Global-Riverine-N2O-Emissions/main/figures/slide-14.png" width="300"/>
+</a>
+</p>
+  
+</td>
+</tr>
+</table>
 
 **Goal:** Gain hands-on experience with large raster datasets and automate N₂O emission analysis across decades.
+
+</details>
 
 ---
 
 ### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore) ![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue) ![JQ](https://img.shields.io/badge/tool-jq-yellow)
 Interactive terminal toolkit to preview, backup, and restore Firefox browser sessions.  
 <details>
-<summary><i>Click to expand project summary</i></summary
+<summary>🎯 <i><b>Click to expand project summary</b></i></summary>
 &nbsp;
 
 Fills a gap in Firefox and other browsers by letting you **safely inspect and recover sessions** — even when the built-in “Restore Session” fails or you’ve accidentally started a new one. Also handy for digging into past browsing history months later.
@@ -157,7 +205,7 @@ Fills a gap in Firefox and other browsers by letting you **safely inspect and re
 ![Status](https://img.shields.io/badge/status-private-yellow)  
 Contribution to a project led by **Kr. Kr.**, investigating predation risk to **Arctic tern nests** in relation to spatial nest placement, predator visitation, and interspecies interactions (e.g., with barnacle geese).
 <details>
-<summary><i>Click to expand project summary</i></summary
+<summary>🎯 <i><b>Click to expand project summary</b></i></summary>
 &nbsp;
 
 🧠 The analytical approach and model architecture were conceived and developed by **Kr. Kr.**  
@@ -167,7 +215,38 @@ Contribution to a project led by **Kr. Kr.**, investigating predation risk to **
 - Survival analysis using **Cox Proportional Hazards Models** with time-dependent covariates  
 - Predator visitation modeled with **Zero-inflated Binomial GLMs**  
 - Model fitting via **Maximum Likelihood Estimation**, selection using **AIC**  
-- R packages: `survival`, `survminer`, `optim`  
+- R packages: `survival`, `survminer`, `optim`
+
+**🖥️ Console Output Results:**  
+
+<table>
+<tr>
+<td width="25%" valign="top"> 
+<p align="center">
+  <!--
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/tmp/main/Console_Result_Example.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/tmp/main/Console_Result_Example.pngg" width="300"/>
+  -->
+<a href="https://github.com/ddu-rodwolf/tmp/blob/main/Console_Result_Example.png?raw=true">
+  <img src="https://github.com/ddu-rodwolf/tmp/blob/main/Console_Result_Example.png?raw=true" width="300"/>
+</a>
+</a>
+</p>
+</td>
+
+<td width="25%" valign="top"> 
+<p align="center">
+<!--
+<a href="https://raw.githubusercontent.com/ddu-rodwolf/tmp/main/Iterations-numbers-examples_4_public.png">
+  <img src="https://raw.githubusercontent.com/ddu-rodwolf/tmp/main/Iterations-numbers-examples_4_public.png" width="300"/>
+-->
+<a href="https://github.com/ddu-rodwolf/tmp/blob/main/Iterations-numbers-examples_4_public.png?raw=true">
+  <img src="https://github.com/ddu-rodwolf/tmp/blob/main/Iterations-numbers-examples_4_public.png?raw=true" width="300"/>
+</a>
+</p>
+</td>
+</tr>
+</table>
 
 **Focus:** Investigating how predator pressure varies with goose behavior and proximity to Arctic tern colonies.
 
