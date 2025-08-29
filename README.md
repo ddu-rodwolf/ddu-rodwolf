@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 Hands-on demonstration for quick exploration and visualization of **NetCDF-based ocean color data** from the SIOS-InfraNor remote sensing component.
 
 <details>
-<summary>Click to expand project summary</summary>
+<summary><i>Click to expand project summary</i></summary
 &nbsp;
 
 🧭 This project showcases how to explore and analyze remote sensing data stored in **NetCDF4** format using Python, with a focus on **phytoplankton biomass estimation** via **Chlorophyll-a (CHL-a)** concentrations.  
@@ -65,7 +65,7 @@ Hands-on demonstration for quick exploration and visualization of **NetCDF-based
 ### 🔧 [**Python Object Explorer**](https://github.com/ddu-rodwolf/Python-Object-Explorer) ![Python](https://img.shields.io/badge/language-Python-blue)
 A CLI-based utility for recursive structural analysis of Python objects.  
 <details>
-<summary>Click to expand project summary</summary>
+<summary><i>Click to expand project summary</i></summary
 &nbsp;
 
 This project provides a structured, richly formatted exploration of Python objects, suitable for researchers and developers working with unfamiliar libraries or dynamically generated code.
@@ -127,7 +127,7 @@ Data processing pipeline in **R** to handle geospatial raster datasets from the 
 ### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore) ![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue) ![JQ](https://img.shields.io/badge/tool-jq-yellow)
 Interactive terminal toolkit to preview, backup, and restore Firefox browser sessions.  
 <details>
-<summary>Click to expand project summary</summary>
+<summary><i>Click to expand project summary</i></summary
 &nbsp;
 
 Fills a gap in Firefox and other browsers by letting you **safely inspect and recover sessions** — even when the built-in “Restore Session” fails or you’ve accidentally started a new one. Also handy for digging into past browsing history months later.
@@ -157,7 +157,7 @@ Fills a gap in Firefox and other browsers by letting you **safely inspect and re
 ![Status](https://img.shields.io/badge/status-private-yellow)  
 Contribution to a project led by **Kr. Kr.**, investigating predation risk to **Arctic tern nests** in relation to spatial nest placement, predator visitation, and interspecies interactions (e.g., with barnacle geese).
 <details>
-<summary>Click to expand project summary</summary>
+<summary><i>Click to expand project summary</i></summary
 &nbsp;
 
 🧠 The analytical approach and model architecture were conceived and developed by **Kr. Kr.**  
