@@ -200,6 +200,7 @@ Data processing pipeline in **R** to handle geospatial raster datasets from the 
 
 ### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore)
 ![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue) ![JQ](https://img.shields.io/badge/tool-jq-yellow)
+
 Interactive terminal toolkit to preview, backup, and restore Firefox browser sessions.  
 <details>
 <summary>🎯 <i><b>Click to expand project summary</b></i></summary>
