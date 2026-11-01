@@ -19,7 +19,32 @@ Here are some ideas to get you started:
 
 ---
 
-### 🛰️ [**SIOS-InfraNOR-Ocean-Color**](https://github.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color) ![Python](https://img.shields.io/badge/language-Python-blue)  
+### 🧊 [**SIOS SESS Recommendation Explorer**](https://github.com/ddu-rodwolf/SIOS-SESS-Recommendation-Explorer) ![Python](https://img.shields.io/badge/language-Python-blue) ![GUI](https://img.shields.io/badge/UI-Tkinter-orange) ![Drupal](https://img.shields.io/badge/integration-Drupal-blueviolet) ![Power Query](https://img.shields.io/badge/backend-Power%20Query-green) ![Status](https://img.shields.io/badge/status-evolving-yellow)  
+Automated data pipeline and future-ready backend toolkit for harvesting, enriching, and syncing SESS scientific recommendations with a Drupal knowledge database.
+
+<details>
+<summary>🎯 <i><b>Click to expand project summary</b></i></summary>
+&nbsp;
+
+🧭 Transforms recommendations from the **SESS ([State of Environmental Science in Svalbard](https://sios-svalbard.org/SESSreport#PurposeoftheSESSreport))** reports into a structured, searchable knowledge resource for the [SIOS Knowledge Centre](https://sios-svalbard.org/).
+
+🚀 **Architecture Evolution (Python-Driven Backend):**
+- **Migrating Power Queries to Python:** Converting existing Excel/M-code web scrapers (`SESS_Issues`, chapter metadata parsing, and Zenodo REST API enrichment) directly into native Python modules.
+- **Drupal Admin Integration:** Designed to act as a backend engine called by a Drupal admin tool for automated ingestion of new recommendations or full database reconstruction/disaster recovery.
+- **Analytics & Reporting:** Retaining automated export modules to supply statistical summaries and historical usage metrics for stakeholder reporting.
+
+✨ **Core components:**
+- 🖥️ **Interactive Tkinter UI / CLI (`sess_issue_selector.py`):** Flexible control over issue filtering, workbook/API connection settings, and execution modes.
+- 📄 **Smart PDF Parsing (`sess_recommendations.py`):** Uses `pdfplumber` with bounding-box content detection and colour-fallback strategies to extract and clean recommendation records.
+- 🌐 **Metadata Enrichment:** Programmatic retrieval of author lists, keywords, and publication analytics via the Zenodo API.
+
+**🧑‍💻 Tech stack:** Python, Tkinter, Pandas, pdfplumber, Requests, OpenPyXL, Zenodo REST API, Drupal
+
+</details>
+
+---
+
+### 🛰️ [**SIOS InfraNOR Ocean Color**](https://github.com/ddu-rodwolf/SIOS-InfraNOR-Ocean-Color) ![Python](https://img.shields.io/badge/language-Python-blue)  
 Hands-on demonstration for quick exploration and visualization of **NetCDF-based ocean color data** from the SIOS-InfraNor remote sensing component.
 
 <details>
@@ -115,7 +140,7 @@ Originally developed as a personal research tool to complement RE workflows and 
 
 ---
 
-### 📤 [**Global-Riverine-N₂O-Emissions Processor**](https://github.com/ddu-rodwolf/Global-Riverine-N2O-Emissions)  ![R](https://img.shields.io/badge/language-R-blue)
+### 📤 [**Global Riverine N₂O Emissions Processor**](https://github.com/ddu-rodwolf/Global-Riverine-N2O-Emissions)  ![R](https://img.shields.io/badge/language-R-blue)
 Data processing pipeline in **R** to handle geospatial raster datasets from the CMS project on global nitrous oxide emissions (1900–2016).
 
 <details>
@@ -201,7 +226,7 @@ Fills a gap in Firefox and other browsers by letting you **safely inspect and re
 
 ---
 
-### 🐦 Arctic-Tern-Predators-Model ![R](https://img.shields.io/badge/language-R-blue)
+### 🐦 Arctic Tern Predators Model ![R](https://img.shields.io/badge/language-R-blue)
 ![Status](https://img.shields.io/badge/status-private-yellow)  
 Contribution to a project led by **Kr. Kr.**, investigating predation risk to **Arctic tern nests** in relation to spatial nest placement, predator visitation, and interspecies interactions (e.g., with barnacle geese).
 <details>
