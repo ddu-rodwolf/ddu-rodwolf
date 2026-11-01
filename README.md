@@ -19,7 +19,8 @@ Here are some ideas to get you started:
 
 ---
 
-### 🧊 [**SIOS SESS Recommendation Explorer**](https://github.com/ddu-rodwolf/SIOS-SESS-Recommendation-Explorer) ![Python](https://img.shields.io/badge/language-Python-blue) ![GUI](https://img.shields.io/badge/UI-Tkinter-orange) ![Drupal](https://img.shields.io/badge/integration-Drupal-blueviolet) ![Power Query](https://img.shields.io/badge/backend-Power%20Query-green) ![Status](https://img.shields.io/badge/status-evolving-yellow)  
+### 🧊 [**SIOS SESS Recommendation Explorer**](https://github.com/ddu-rodwolf/SIOS-SESS-Recommendation-Explorer)
+![Python](https://img.shields.io/badge/language-Python-blue) ![GUI](https://img.shields.io/badge/UI-Tkinter-orange) ![Drupal](https://img.shields.io/badge/integration-Drupal-blueviolet) ![Power Query](https://img.shields.io/badge/backend-Power%20Query-green) ![Status](https://img.shields.io/badge/status-evolving-yellow)  
 Automated data pipeline and future-ready backend toolkit for harvesting, enriching, and syncing SESS scientific recommendations with a Drupal knowledge database.
 
 <details>
@@ -197,7 +198,8 @@ Data processing pipeline in **R** to handle geospatial raster datasets from the 
 
 ---
 
-### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore) ![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue) ![JQ](https://img.shields.io/badge/tool-jq-yellow)
+### 🦊 [**Firefox Session Preview & Restore**](https://github.com/ddu-rodwolf/Firefox-Session-Preview-Restore)
+![Bash](https://img.shields.io/badge/language-Bash-green) ![Python](https://img.shields.io/badge/language-Python-blue) ![JQ](https://img.shields.io/badge/tool-jq-yellow)
 Interactive terminal toolkit to preview, backup, and restore Firefox browser sessions.  
 <details>
 <summary>🎯 <i><b>Click to expand project summary</b></i></summary>
