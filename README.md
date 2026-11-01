@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 
 ---
 
-### 🧊 [**SIOS SESS Recommendation Explorer**](https://github.com/ddu-rodwolf/SIOS-SESS-Recommendation-Explorer)
+### 🧊 [**SIOS SESS Recommendation Explorer**](https://github.com/ddu-rodwolf/SESS-database-harvester-explorer)
 ![Python](https://img.shields.io/badge/language-Python-blue) ![GUI](https://img.shields.io/badge/UI-Tkinter-orange) ![Drupal](https://img.shields.io/badge/integration-Drupal-blueviolet) ![Power Query](https://img.shields.io/badge/backend-Power%20Query-green) ![Status](https://img.shields.io/badge/status-evolving-yellow)  
 Automated data pipeline and future-ready backend toolkit for harvesting, enriching, and syncing SESS scientific recommendations with a Drupal knowledge database.
 
